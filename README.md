@@ -7,9 +7,9 @@ provided by the [RailsApps Project](http://railsapps.github.io/).
 I made some changes to include some test classes. I am posting it to GitHub because there is a failing test in the UsersControllerTest. The functionality works when running as a Rails app. For some reason the admin's role starts out as :admin but when it gets to UserPolicy.index? it is just :user.
 
 If you want to help fix the problem, after cloning, you will need to remove the ".sample" extensions on the following files. They are ignored by git so I needed to rename them to get them here.
-*config/application.yml.sample
-*config/database.yml.sample
-*config/secrets.yml.sample
+* config/application.yml.sample
+* config/database.yml.sample
+* config/secrets.yml.sample
 
 You will need to enter your own information in application.yml. I changed the secret_key_bases in secrets.yml.sample. That may need to be changed also.
 
